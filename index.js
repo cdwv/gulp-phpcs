@@ -12,6 +12,10 @@ var util = require('util'),
 var buildCommand = function(opts) {
     var args = [];
 
+    if(opts.hasOwnProperty('report')) {
+        args.push('--report=' + opts.report);
+    }
+
     if (opts.hasOwnProperty('standard')) {
         args.push('--standard=' + opts.standard + '');
     }
