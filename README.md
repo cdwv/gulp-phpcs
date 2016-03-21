@@ -78,6 +78,14 @@ The name or path of the coding standard to use.
 
 This option is equivalent to Code Sniffer `--standard="<standard>"` option.
 
+#### options.report
+
+Type: `String`
+
+The name or path of the coding report to use.
+
+This option is equivalent to Code Sniffer `--report="<report>"` option.
+
 #### options.encoding
 
 Type: `String`
